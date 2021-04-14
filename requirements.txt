@@ -1,2 +1,2 @@
 # For fetch.py ( for _pyrocovid) 
-aiohttp
+aiohttp>=2.2.5
