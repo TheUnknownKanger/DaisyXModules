@@ -1,7 +1,7 @@
 from DaisyX.services.pyrogram import pbot as app
-from DaisyX.pyrogramee.errors import capture_err
-from DaisyX.pyrogramee.json_prettify import json_prettify
-from DaisyX.pyrogramee.fetch import fetch
+from DaisyX.pyroplugs.errors import capture_err
+from DaisyX.pyroplugs.json_prettify import json_prettify
+from DaisyX.pyroplugs.fetch import fetch
 from pyrogram import filters
 
 
