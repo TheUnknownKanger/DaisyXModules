@@ -2,7 +2,8 @@
 import sys
 import traceback
 from functools import wraps
-from DaisyXBot.services import pbot, SUPPORT_CHAT
+from DaisyXBot.services import pbot
+from DaisyX import SUPPORT_CHAT
 
 def split_limits(text):
     if len(text) < 2048:
