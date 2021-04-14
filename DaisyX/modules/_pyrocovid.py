@@ -1,3 +1,5 @@
+# for Porting This Module You Need to Port pyroplugs ( folder) with errors.py, json_prettify.py, fetch.py
+
 from DaisyX.services.pyrogram import pbot as app
 from DaisyX.pyroplugs.errors import capture_err
 from DaisyX.pyroplugs.json_prettify import json_prettify
