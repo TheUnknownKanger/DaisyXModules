@@ -1,3 +1,10 @@
+# Must Need to Do For Using This Plugin Given Below:- 
+# Port DaisyX/pyroplugs/inlinehelper.py for using this plugin. 
+# Also Check Requirements in this repo Requirements Clearly Mentioned The Requirements needed for this plugin. If that requirements is not available at your repo then add it. 
+
+# Extra Plugins Provided By Team Daisy X
+# Ported From WilliamButcher Bot. 
+# All Credit Goes to WilliamButcherBot
 
 from DaisyX.pyroplugs.inlinehelper import (
     google_search_func, urban_func, translate_func,
@@ -20,14 +27,6 @@ __HELP__ = """
 **saavn [SONG_NAME]** - __Get Songs From Saavn.__
 **deezer [SONG_NAME]** - __Get Songs From Deezer.__
 **torrent [QUERY] - __Torrent Search.__"""
-
-
-app = Client(
-    "wbb",
-    bot_token=BOT_TOKEN,
-    api_id=API_ID,
-    api_hash=API_HASH
-)
 
 
 
