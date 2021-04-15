@@ -1,5 +1,5 @@
 # Must Need to Do For Using This Plugin Given Below:- 
-# Port DaisyX/pyroplugs/inlinehelper.py for using this plugin. 
+# Port DaisyX/pyroplugs/inlinehelper.py and DaisyX/pyroplugs/formatter.py for using this plugin. 
 # Also Check Requirements in this repo Requirements Clearly Mentioned The Requirements needed for this plugin. If that requirements is not available at your repo then add it. 
 
 # Extra Plugins Provided By Team Daisy X
