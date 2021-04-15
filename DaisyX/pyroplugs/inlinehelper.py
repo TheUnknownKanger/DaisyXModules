@@ -1,4 +1,4 @@
-from config import ( BOT_TOKEN, API_ID, API_HASH, PHONE_NUMBER, OWNER_ID, ARQ_API_BASE_URL as ARQ_API
+from config import ( BOT_TOKEN, API_ID, API_HASH, PHONE_NUMBER,BOT_USERNAME, USERBOT_USERNAME, LOG_GROUP_ID, OWNER_ID, ARQ_API_BASE_URL as ARQ_API
 from pyrogram.types import (
     InlineQueryResultArticle,
     InputTextMessageContent,
