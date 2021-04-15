@@ -1,3 +1,4 @@
+from config import ( BOT_TOKEN, API_ID, API_HASH, PHONE_NUMBER, OWNER_ID, ARQ_API_BASE_URL as ARQ_API
 from pyrogram.types import (
     InlineQueryResultArticle,
     InputTextMessageContent,
@@ -18,6 +19,7 @@ from pyrogram import __version__ as pyrover
 import aiohttp
 import json
 
+SUDOERS = OWNER_ID
 
 app2 = Client(
     "userbot",
@@ -36,7 +38,7 @@ app = Client(
 app.start()
 app2.start()
 get_info(app, app2)
-SUDOERS.append(USERBOT_ID)
+SUDOERS.append(OWNER_ID)
 # ARQ client
 arq = ARQ(ARQ_API)
 
