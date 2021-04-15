@@ -1,2 +1,12 @@
 # For fetch.py ( for _pyrocovid) 
 aiohttp>=2.2.5
+
+# For InlineHelper
+googletrans
+search_engine_parser
+time
+pykeyboard
+sys
+motor
+json
+pyrogram
