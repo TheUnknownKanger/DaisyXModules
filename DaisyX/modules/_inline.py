@@ -13,7 +13,7 @@ from DaisyX.pyroplugs.inlinehelper import (
     saavn_func, deezer_func, inline_help_func,
     torrent_func
 )
-from DaisyX.pyroplugs import app
+from DaisyX.services.pyrogram import pbot as app
 from pyrogram import filters
 
 __MODULE__ = "Inline"
